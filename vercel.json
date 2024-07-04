@@ -10,6 +10,10 @@
             "dest": "/public/build/"
         },
         {
+            "src": "/assets/(.*)",
+            "dest": "/public/assets/"
+        },
+        {
             "src": "/css/(.*)",
             "dest": "/public/css/"
         },
@@ -20,6 +24,14 @@
         {
             "src": "/js/(.*)",
             "dest": "/public/js/"
+        },
+        {
+            "src": "/fonts/(.*)",
+            "dest": "/public/fonts/"
+        },
+        {
+            "src": "/scss/(.*)",
+            "dest": "/public/scss/"
         },
         {
             "src": "/vendors/(.*)",
